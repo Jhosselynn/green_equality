@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon in ICO format -->
+    <link rel="icon" href="images/logodos.ico" type="image/x-icon">
+     <!-- Favicon in PNG format -->
+     <link rel="icon" href="images/logodos.png" type="image/png">
+    <!-- Favicon in SVG format -->
+    <link rel="icon" href="images/logodos.svg" type="image/svg+xml">
+
+
+    <title>Green Equality</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+        header {
+            background-color: #396d38; /* Dark green */
+            color: white;
+            padding: 0px;
+            text-align: center;
+        }
+
+         nav {
+            background-color: #ffffff; /* Main green */
+            padding: 15px;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+         nav a {
+            color: #0a4111;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+   
+         nav a:hover {
+        text-decoration: underline;
+         }
+
+        section {
+            padding: 50px;
+            color: #0a4111;
+        }
+        #section1 {
+            background-color: #d0f4d1; /* Main green */
+        }
+        #section2 {
+            background-color: #81c784; /* Light green */
+        }
+        #section3 {
+            background-color: #d5f3d6; /* Another shade of green */
+        }
+        #section4 {
+            background-color: #388e3c; /* Darker green */
+        }
+        footer {
+            background-color: #2d572c; /* Dark green */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+
+        .column-section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .column-section .column:first-child {
+            margin-right: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .column-section {
+                flex-direction: column;
+            }
+            .column {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+
+         /* Contenedor para centrar únicamente el h1 con los logos */
+         .logo-container {
+            display: flex;
+            justify-content: center; /* Solo centra el logo y el título horizontalmente */
+            align-items: center; /* Alinea el logo y el título verticalmente */
+        }
+
+        .logo-container img {
+            width: 150px; /* Ajusta el tamaño del logo */
+            height: 150px;
+            margin: 0px; /* Espacio entre los logos y el título */
+        }
+
+        .logo-container h1 {
+            margin: 0; /* Elimina márgenes por defecto */
+        }
+
+        /* Secciones alineadas a la izquierda */
+        section {
+            text-align: left; /* Alinea todo el texto de las secciones a la izquierda */
+            margin: 0%; /* Agrega un margen alrededor de las secciones */
+        }
+
+        /* Elimina el subrayado del enlace y ajusta el color del texto */
+        .logo-container a {
+            text-decoration: none; /* Quita el subrayado */
+            color: inherit; /* Hereda el color del h1 */
+        }
+
+         /* Espacio entre viñetas */
+    ul li {
+        margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+    }
+
+    /* Interlineado para párrafos */
+    p {
+        line-height: 1.6; /* Ajusta el interlineado, mayor número = más espacio */
+    }
+    
+    h1 {
+
+        font-size: 100px;
+    }
+
+    h2 {
+
+        font-size: 45px;
+        margin-top: 0px;
+
+        }
+
+
+    .centered-image {
+        display: block; /* Convierte la imagen en un elemento de bloque */
+        margin-left: auto; /* Margen automático a la izquierda */
+        margin-right: auto; /* Margen automático a la derecha */
+        width: 950px; /* O el tamaño que prefieras */
+        height: auto; /* Mantiene la proporción */
+
+    }    
+
+    </style>
+</head>
+<body>
+
+<header>
+
+    <header class="logo-container">
+    <img src="images/logo.png" alt="Logo Left">
+    <a href="index.html"><h1>GREEN EQUALITY</h1></a>
+    <img src="images/logo.png" alt="Logo Right">
+
+</header>
+
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="relation.html">Relation & Problematic</a>
+    <a href="mission.html">Missions</a>
+    <a href="resources.html">Resources</a>
+    <a href="references.html">References</a>
+</nav>
+
+
+<section id="section1">
+    <h2
+    style= text-align:center
+    >"EQUAL VOICES, GREENER CHOICES"</h2>
+
+    <img class=centered-image src="images/banneruno.png" alt="Description of the image" width="950" height="450">
+</section>
+
+
+<footer>
+    <p>NASA Space Apps Challenge Project - 2024
+    
+    </p>
+</footer>
+
+</body>
+</html>
